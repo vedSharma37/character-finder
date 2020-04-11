@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+.character-tile-box {
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  margin-bottom: 30px;
+  border: 2px solid #000;
+}
+
+
+.character-tile-box .avatarImg {
+  position: relative;
+}
+
+.character-tile-box picture img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.character-tile-box  .char-personal-detail {
+  position: absolute;
+  background: #000000a6;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.character-tile-box  ul {
+  padding: 10px;
+  margin: 0;
+}
+.character-tile-box  ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid #545050;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.character-tile-box  ul li span:last-child{
+
+  text-align: right;
+}
+
+.character-tile-box  ul li:last-child{
+  border-bottom: none;
+}
+
+.filter-container .filter-box {
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
