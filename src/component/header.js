@@ -5,7 +5,7 @@ const Header = props => {
 
     return (
         <nav className="navbar navbar-light text-white bg-dark">
-          <a className="navbar-brand text-white" href="#">
+          <a className="navbar-brand text-white" href="#test">
             {props.name}
           </a>
         </nav>
