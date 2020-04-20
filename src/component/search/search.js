@@ -13,8 +13,8 @@ class Search extends React.Component {
                     <div className="col-md-8">
                         <form className="searchBar-box">
                             <div className="from-group">
-                            <label>Search By Name</label>
-                                <input type="text" onChange={this.props.onChangeHandler} className="form-control" placeholder="Search" />
+                            <label htmlFor="search-input">Search By Name</label>
+                                <input id="search-input" type="text" onChange={this.props.onChangeHandler} className="form-control" placeholder="Search" />
                             </div>
                         </form>
                     </div>

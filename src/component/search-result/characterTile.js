@@ -7,9 +7,9 @@ const CharacterTile = props => {
             <div className="character-tile-box">
                 <div className="avatarImg">
                     <picture>
-                        <img src={props.details.image}/>
+                        <img src={props.details.image} title={props.details.name} alt={props.details.name} />
                         <div className="char-personal-detail">   
-                        <h4>{props.details.name}</h4>
+                        <h3>{props.details.name}</h3>
                         <div className="created-time">
                         Id : { props.details.id} | {props.details.created}
 
