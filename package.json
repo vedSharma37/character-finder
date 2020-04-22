@@ -31,5 +31,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+
+  "husky" :{
+
+    "hooks" : {
+      "pre-commit": "CI=true npm test"
+    }
+
+  },
+
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "husky": "^4.2.5"
   }
 }
