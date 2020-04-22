@@ -79,7 +79,6 @@ class App extends React.Component {
   }
 
   onFilterChangeHandler = (event) => {
-    console.log(event, event.target.dataset.filterCategory);
     let filters = {
       gender : [...this.state.appliedFilters.gender], 
       species: [...this.state.appliedFilters.species]
