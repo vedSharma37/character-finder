@@ -110,6 +110,7 @@ class App extends React.Component {
 
     this.setState({filters:filters, appliedFilters: filters});
 
+    console.log('test')
   }
 
 
@@ -117,11 +118,11 @@ class App extends React.Component {
       return (
       <div className="App-container container-fluid">
 
-          <Header name="Character Finder"/>
+          <Header name="Character Finder" />
 
           <div className="row">
             <div className="col-md-4">
-                <Filter heading="example" filters = {this.state.filters} onChangeHandler={this.onFilterChangeHandler} />
+                <Filter heading="example" filters={this.state.filters} onChangeHandler={this.onFilterChangeHandler} />
             </div>
             <div className="col-md-8">
                 <Search onChangeHandler={this.searchByNameHandler} />

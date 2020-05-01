@@ -1,18 +1,20 @@
-import React from 'react';
-
+import React from 'react'
 
 const Header = props => {
+  return (
+    <nav className="navbar navbar-light text-white bg-dark">
+      <h1>
+        <a className="navbar-brand text-white" href="#test">
+          {props.name}
+        </a>
+      </h1>
+    </nav>
 
-    return (
-        <nav className="navbar navbar-light text-white bg-dark">
-          <h1>
-            <a className="navbar-brand text-white" href="#test">
-              {props.name}
-            </a>
-          </h1>
-        </nav>
+  )
+}
 
-    )
+Header.propTypes = {
+  name : React.propTypes.string
 }
 
 export default Header
