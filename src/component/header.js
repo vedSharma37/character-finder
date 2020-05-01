@@ -14,7 +14,7 @@ const Header = props => {
 }
 
 Header.propTypes = {
-  name : React.propTypes.string
+  name: React.propTypes.string
 }
 
 export default Header
